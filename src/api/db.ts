@@ -1,0 +1,86 @@
+const api ={
+  "bg": "/img/gow.webp",
+  "title": "Quiz do Senhor dos Anéis",
+  "description": "Teste os seus conhecimentos sobre O Senhor dos Anéis antes que Sauron domine a terra média!!",
+  "github": "https://github.com/rodrigodiasf1984/imersao-alura-2-next.js-typescript-styled-components",
+  "questions": [{
+          "image": "/questions/smeagol.gif",
+          "title": "Como era o nome hobbit do Gollum?",
+          "description": "Essa é pra aquecer",
+          "answer": 2,
+          "alternatives": [
+              "Bilbo",
+              "Frodo",
+              "Smeagol",
+              "Landral"
+          ]
+      },
+      {
+          "image": "/questions/hobbits-drinking.gif",
+          "title": "Quantos membros haviam na sociedade do anel?",
+          "description": "Basicona tbm haha",
+          "answer": 2,
+          "alternatives": [
+              "5",
+              "10",
+              "9"
+          ]
+      },
+      {
+          "image": "/questions/frodo-bad.gif",
+          "title": "Qual o nome da aranha gigante que tentou comer o Frodo?",
+          "description": "Eiiiita, quero ver agora =P",
+          "answer": 1,
+          "alternatives": [
+              "Ungoliant",
+              "Shelob",
+              "Morgoth",
+              "Goliath"
+          ]
+      },
+      {
+          "image": "/questions/one-ring.gif",
+          "title": "Quantos anéis do poder foram criados?",
+          "description": "A memória está boa aí?",
+          "answer": 3,
+          "alternatives": [
+              "3",
+              "17",
+              "8",
+              "20"
+          ]
+      },
+      {
+          "image": "/questions/gandalf-ysnp.gif",
+          "title": "Quantos magos haviam na terra média?",
+          "description": "Só experts sabem esta!! =)",
+          "answer": 1,
+          "alternatives": [
+              "3",
+              "5",
+              "8",
+              "2"
+          ]
+      }
+  ],
+  "external": [
+      "https://imersao-react-next.dayana-sog.vercel.app/",
+      "https://one-piece-quiz.cassiofb-dev.vercel.app/",
+      "https://doctor-who-quiz.emanuelpna.vercel.app/",
+      "https://mrrobot-quiz.xandowski.vercel.app/"
+  ],
+  "theme": {
+      "colors": {
+          "primary": "#1769aa",
+          "secondary": "#4dabf5",
+          "mainBg": "#000",
+          "contrastText": "#FFFFFF",
+          "wrong": "#f44336",
+          "success": "#4caf50",
+          "selected": "#30d3ef"
+      },
+      "borderRadius": "4px"
+  }
+}
+
+export default api;
